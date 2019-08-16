@@ -1,0 +1,114 @@
+/*
+*{
+    background-color: darkslategrey;
+    background-image: url("/resources/images/apple.png");
+}
+*/
+
+body{
+    background-color: #fff;
+    margin: auto;
+}
+#header{
+   background-color: #F1F1F1;
+    margin-bottom: 35px;
+    height: 70px;
+    text-align: right;
+    padding: 15px;
+    border-bottom: 1px solid;
+    display: flex;
+}
+
+.cartButton {
+    margin-top: 12px;
+    width: 150px;
+}
+#container{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float: left;
+    background-image: url("/resources/images/mobile.png");
+    box-sizing: content-box;
+    clear: right;
+    padding: 0 15px;
+    }
+#cart-container{
+    width: 30%;
+    float: right;
+    top: 50px;
+    overflow: auto;
+    font-size: small;
+    box-sizing: content-box;
+    margin: 7px 20px 0 0;
+}
+img{
+    height: 60px;
+}
+.products{
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 16px;
+    margin-bottom: 20px;
+    font-size: small;
+    box-sizing: content-box;
+    background-image: url("/resources/images/mobile.png");
+    text-align: center;
+}
+.buttonControl button {
+    width: 100%;
+    margin: 5px 0 20px 0;
+}
+
+.pdContainer {
+    border: 1px solid #333;
+    margin: 12px;
+}
+
+.title {
+    text-align: left;
+    flex: 1 0 auto;
+}
+
+.buttons {
+    text-align: right;
+}
+.hide{
+    display: none;
+}
+.display{
+    visibility: visible;
+}
+
+#login-container{
+    margin: 50px;
+    background-color: darkblue;
+    color: white;
+    font-family: 'DejaVu Serif', Georgia, "Times New Roman", Times, serif;
+    font-size: x-large;
+    font-style: normal;
+}
+.login-input{
+    background-color: white;
+    color: #333333;
+}
+h3{
+    margin-bottom: 0px;
+}
+h4{
+    font-size: small;
+    font-style: normal;
+
+}
+td{
+    margin: 4px;
+}
+footer{display: block;
+    position: fixed;
+    color: white;
+    bottom: 0px;
+    background-color: #333333;
+    width: 100%;
+
+    height: 100px}
